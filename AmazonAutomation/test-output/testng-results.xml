@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="237594" started-at="2020-02-04T11:15:02Z" finished-at="2020-02-04T11:18:59Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="237594" started-at="2020-02-04T11:15:02Z" finished-at="2020-02-04T11:18:59Z">
+      <class name="com.amazon.Test.AmazonProductDetailTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.amazon.Test.AmazonProductDetailTest@52e677af]" name="beforeMethod" is-config="true" duration-ms="20890" started-at="2020-02-04T16:47:40Z" finished-at="2020-02-04T16:48:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyproductaddtocart()[pri:1, instance:com.amazon.Test.AmazonProductDetailTest@52e677af]" name="verifyproductaddtocart" duration-ms="57353" started-at="2020-02-04T16:48:01Z" finished-at="2020-02-04T16:48:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyproductaddtocart -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.amazon.Test.AmazonProductDetailTest@52e677af]" name="afterMethod" is-config="true" duration-ms="1312" started-at="2020-02-04T16:48:58Z" finished-at="2020-02-04T16:48:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.amazon.Test.AmazonProductDetailTest -->
+      <class name="com.amazon.Test.AmazonProductListTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.amazon.Test.AmazonProductListTest@534df152]" name="beforeMethod" is-config="true" duration-ms="20584" started-at="2020-02-04T16:46:41Z" finished-at="2020-02-04T16:47:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyproductselection()[pri:0, instance:com.amazon.Test.AmazonProductListTest@534df152]" name="verifyproductselection" duration-ms="36604" started-at="2020-02-04T16:47:02Z" finished-at="2020-02-04T16:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyproductselection -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.amazon.Test.AmazonProductListTest@534df152]" name="afterMethod" is-config="true" duration-ms="1311" started-at="2020-02-04T16:47:38Z" finished-at="2020-02-04T16:47:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.amazon.Test.AmazonProductListTest -->
+      <class name="com.amazon.Test.AmazonAddToCartTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.amazon.Test.AmazonAddToCartTest@35083305]" name="beforeMethod" is-config="true" duration-ms="72711" started-at="2020-02-04T16:45:25Z" finished-at="2020-02-04T16:46:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verfiyproductdetails()[pri:0, instance:com.amazon.Test.AmazonAddToCartTest@35083305]" name="verfiyproductdetails" duration-ms="1602" started-at="2020-02-04T16:46:38Z" finished-at="2020-02-04T16:46:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verfiyproductdetails -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.amazon.Test.AmazonAddToCartTest@35083305]" name="afterMethod" is-config="true" duration-ms="1519" started-at="2020-02-04T16:46:40Z" finished-at="2020-02-04T16:46:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.amazon.Test.AmazonAddToCartTest -->
+      <class name="com.amazon.Test.AmazonDashboardTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.amazon.Test.AmazonDashboardTest@4c6e276e]" name="beforeMethod" is-config="true" duration-ms="16038" started-at="2020-02-04T16:45:02Z" finished-at="2020-02-04T16:45:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifysearchproduct()[pri:0, instance:com.amazon.Test.AmazonDashboardTest@4c6e276e]" name="verifysearchproduct" duration-ms="6195" started-at="2020-02-04T16:45:18Z" finished-at="2020-02-04T16:45:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifysearchproduct -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.amazon.Test.AmazonDashboardTest@4c6e276e]" name="afterMethod" is-config="true" duration-ms="1406" started-at="2020-02-04T16:45:24Z" finished-at="2020-02-04T16:45:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.amazon.Test.AmazonDashboardTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
