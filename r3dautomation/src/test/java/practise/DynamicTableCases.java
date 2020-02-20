@@ -31,7 +31,7 @@ driver.get("http://demo.guru99.com/test/web-table-element.php");
 
 
   
-  @Test(priority=1,enabled=false)
+  @Test(priority=1)
   public void GroupAcalculatesumofprevclose() throws InterruptedException {
 	  
 

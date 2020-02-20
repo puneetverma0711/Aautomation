@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="practise.NewContactVerfication">
+      <class name="practise.DynamicTableCases">
         <methods>
+          <include name="verifycompanycurrentprice"/>
           <include name="beforeMethod"/>
-          <include name="verifydetails"/>
           <include name="afterMethod"/>
         </methods>
-      </class> <!-- practise.NewContactVerfication -->
+      </class> <!-- practise.DynamicTableCases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
