@@ -1,0 +1,21 @@
+//a[contains(text(),'asas')]
+
+
+
+//a[@id='mp1_0_8_Anchor']
+
+(By.tagname("input[name='firstname']"))
+
+
+
+by.csssselector(input#abc);
+by.csssselector(input.abc);
+
+
+
+//ul[@id='ui-id-1']/child::li   ---- to get autocomplete list elements in this way 
+
+
+
+following sibling and parent and child
+//a[contains(text(),'Clients')]/parent::*/following-sibling::li[2]/child::a

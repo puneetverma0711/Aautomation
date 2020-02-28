@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6126" started-at="2020-02-24T11:56:00Z" finished-at="2020-02-24T11:56:06Z">
+  <suite name="Default suite" duration-ms="10321" started-at="2020-02-28T12:25:13Z" finished-at="2020-02-28T12:25:23Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6126" started-at="2020-02-24T11:56:00Z" finished-at="2020-02-24T11:56:06Z">
-      <class name="practise.DynamicTest">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:practise.DynamicTest@55f3ddb1]" name="beforeMethod" is-config="true" duration-ms="4892" started-at="2020-02-24T17:26:00Z" finished-at="2020-02-24T17:26:05Z">
+    <test name="Default test" duration-ms="10321" started-at="2020-02-28T12:25:13Z" finished-at="2020-02-28T12:25:23Z">
+      <class name="practise.ParentChild">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:practise.ParentChild@55f3ddb1]" name="beforeMethod" is-config="true" duration-ms="4919" started-at="2020-02-28T17:55:13Z" finished-at="2020-02-28T17:55:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="dynamictest()[pri:0, instance:practise.DynamicTest@55f3ddb1]" name="dynamictest" duration-ms="122" started-at="2020-02-24T17:26:05Z" finished-at="2020-02-24T17:26:05Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:practise.ParentChild@55f3ddb1]" name="f" duration-ms="4127" started-at="2020-02-28T17:55:18Z" finished-at="2020-02-28T17:55:22Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dynamictest -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:practise.DynamicTest@55f3ddb1]" name="afterMethod" is-config="true" duration-ms="1077" started-at="2020-02-24T17:26:05Z" finished-at="2020-02-24T17:26:06Z">
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:practise.ParentChild@55f3ddb1]" name="afterMethod" is-config="true" duration-ms="1231" started-at="2020-02-28T17:55:22Z" finished-at="2020-02-28T17:55:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-      </class> <!-- practise.DynamicTest -->
+      </class> <!-- practise.ParentChild -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

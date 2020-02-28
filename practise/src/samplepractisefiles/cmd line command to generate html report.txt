@@ -1,0 +1,1 @@
+jmeter -n -t D:\jmeter\apache-jmeter-5.2.1\trullaaddmedication.jmx -l D:\jmeter\apache-jmeter-5.2.1\trullacsvfolder\trulla.csv -e -o D:\jmeter\apache-jmeter-5.2.1\bin\examples\html\trulla

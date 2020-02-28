@@ -1,0 +1,62 @@
+ID,Title,Created By,Created On,Estimate,Forecast,Priority,References,Section,Section Depth,Section Description,Suite,Suite ID,Type,Updated By,Updated On
+C1,Time and date is properly formatted for target region,puneet verma,3/12/2019 14:24,,,Medium,,Test Cases,0,,localisation test suite,S1,Other,puneet verma,3/12/2019 14:24
+C2,Phone number formats are proper to target region,puneet verma,3/12/2019 14:25,,,Medium,,Test Cases,0,,localisation test suite,S1,Other,puneet verma,3/12/2019 14:25
+C3,Currency for the target region,puneet verma,3/12/2019 14:25,,,Medium,,Test Cases,0,,localisation test suite,S1,Other,puneet verma,3/12/2019 14:25
+C4,Is the License and Rules obeying the current website(region),puneet verma,3/12/2019 14:25,,,Medium,,Test Cases,0,,localisation test suite,S1,Other,puneet verma,3/12/2019 14:25
+C5,"Text Content Layout in the pages are error-free, font independence and line alignments",puneet verma,3/12/2019 14:25,,,Medium,,Test Cases,0,,localisation test suite,S1,Other,puneet verma,3/12/2019 14:25
+C6,"Special characters, hyperlinks and hotkeys functionality",puneet verma,3/12/2019 14:25,,,Medium,,Test Cases,0,,localisation test suite,S1,Other,puneet verma,3/12/2019 14:25
+C7,Validation Message for Input Fields,puneet verma,3/12/2019 14:26,,,Medium,,Test Cases,0,,localisation test suite,S1,Other,puneet verma,3/12/2019 14:26
+C8,The generated build includes all the necessary files,puneet verma,3/12/2019 14:26,,,Medium,,Test Cases,0,,localisation test suite,S1,Other,puneet verma,3/12/2019 14:26
+C9,The localized screen has the same type of elements and numbers as that of the source product,puneet verma,3/12/2019 14:26,,,Medium,,Test Cases,0,,localisation test suite,S1,Other,puneet verma,3/12/2019 14:26
+C10,Ensure the localized user interface of software or web applications compares to the source user interface in the target operating systems and user environments,puneet verma,3/12/2019 14:26,,,Medium,,Test Cases,0,,localisation test suite,S1,Other,puneet verma,3/12/2019 14:26
+C11,Check Typographical errors according to language,puneet verma,3/12/2019 14:27,,,Medium,,Test Cases,0,,localisation test suite,S1,Other,puneet verma,3/12/2019 14:27
+C12,"Consistency checking of printed documentation, messages, command key sequence etc",puneet verma,3/12/2019 14:27,,,Medium,,Test Cases,0,,localisation test suite,S1,Other,puneet verma,3/12/2019 14:27
+C13,"Confirmation of input and display environment standards, adherence to the system. Usability of User Interface",puneet verma,3/12/2019 14:27,,,Medium,,Test Cases,0,,localisation test suite,S1,Other,puneet verma,3/12/2019 14:27
+C14,Make sure there are no truncation and garbage characters anywhere in the application,puneet verma,3/12/2019 14:28,,,Medium,,Test Cases,0,,localisation test suite,S1,Other,puneet verma,3/12/2019 14:28
+C15,"Verify there are no missing menus, strings, or stretched dialogs",puneet verma,3/12/2019 14:29,,,Medium,,Test Cases,0,,localisation test suite,S1,Other,puneet verma,3/12/2019 14:29
+C16,Check for grammar and linguistic issues,puneet verma,3/12/2019 14:29,,,Medium,,Test Cases,0,,localisation test suite,S1,Other,puneet verma,3/12/2019 14:29
+C17,Verify the entire default settings match the relevant language requirement,puneet verma,3/12/2019 14:29,,,Medium,,Test Cases,0,,localisation test suite,S1,Other,puneet verma,3/12/2019 14:29
+C18,"Ensure all characters, including extended characters and symbols, show up correctly",puneet verma,3/12/2019 14:29,,,Medium,,Test Cases,0,,localisation test suite,S1,Other,puneet verma,3/12/2019 14:29
+C19,To verify that currency is displaying correctly for the particular region,puneet verma,3/12/2019 14:29,,,Medium,,Test Cases,0,,localisation test suite,S1,Other,puneet verma,3/12/2019 14:29
+C20,To verify that no garbage values are displayed,puneet verma,3/12/2019 14:29,,,Medium,,Test Cases,0,,localisation test suite,S1,Other,puneet verma,3/12/2019 14:29
+C21,To verify that time and date format is correct as per the region selected,puneet verma,3/12/2019 14:30,,,Medium,,Test Cases,0,,localisation test suite,S1,Other,puneet verma,3/12/2019 14:30
+C22,Government numbers (Social Security number is the USA) and passports  must be displayed as per selected language,puneet verma,3/12/2019 14:31,,,Medium,,Test Cases,0,,localisation test suite,S1,Other,puneet verma,3/12/2019 14:31
+C23,"Telephone numbers, zip codes, Address formats",puneet verma,3/12/2019 14:32,,,Medium,,Test Cases,0,,localisation test suite,S1,Other,puneet verma,3/12/2019 14:32
+C24,"Calendar types (Gregorian, Lunar etc.)",puneet verma,3/12/2019 14:32,,,Medium,,Test Cases,0,,localisation test suite,S1,Other,puneet verma,3/12/2019 14:32
+C25,Date and time formats,puneet verma,3/12/2019 14:32,,,Medium,,Test Cases,0,,localisation test suite,S1,Other,puneet verma,3/12/2019 14:32
+C26,"umber formats (decimal separators, grouping of digits etc.)",puneet verma,3/12/2019 14:32,,,Medium,,Test Cases,0,,localisation test suite,S1,Other,puneet verma,3/12/2019 14:32
+C27,Text in Images,puneet verma,3/12/2019 14:33,,,Medium,,Test Cases,0,,localisation test suite,S1,Other,puneet verma,3/12/2019 14:33
+C28,Global conceptual signs,puneet verma,3/12/2019 14:33,,,Medium,,Test Cases,0,,localisation test suite,S1,Other,puneet verma,3/12/2019 14:33
+C29,How does the UI reacts to change in language and getting back to English?,puneet verma,3/12/2019 14:34,,,Medium,,Test Cases,0,,localisation test suite,S1,Other,puneet verma,3/12/2019 14:34
+C30,Does the language change affects UI?,puneet verma,3/12/2019 14:35,,,Medium,,Test Cases,0,,localisation test suite,S1,Other,puneet verma,3/12/2019 14:35
+C31,How does the line breaks for UI titles?,puneet verma,3/12/2019 14:35,,,Medium,,Test Cases,0,,localisation test suite,S1,Other,puneet verma,3/12/2019 14:35
+C32,How does the hypen handled by UI after language change?,puneet verma,3/12/2019 14:35,,,Medium,,Test Cases,0,,localisation test suite,S1,Other,puneet verma,3/12/2019 14:35
+C33,Does the UI performs as per specification despite change in language?,puneet verma,3/12/2019 14:35,,,Medium,,Test Cases,0,,localisation test suite,S1,Other,puneet verma,3/12/2019 14:35
+C34,Does the UI gets affected due to change in language?,puneet verma,3/12/2019 14:35,,,Medium,,Test Cases,0,,localisation test suite,S1,Other,puneet verma,3/12/2019 14:35
+C35,Does the hyperlinks function properly?,puneet verma,3/12/2019 14:35,,,Medium,,Test Cases,0,,localisation test suite,S1,Other,puneet verma,3/12/2019 14:35
+C36,Does the menu links function properly?,puneet verma,3/12/2019 14:35,,,Medium,,Test Cases,0,,localisation test suite,S1,Other,puneet verma,3/12/2019 14:35
+C37,Does the input within UI support region specific characters?,puneet verma,3/12/2019 14:36,,,Medium,,Test Cases,0,,localisation test suite,S1,Other,puneet verma,3/12/2019 14:36
+C38,Does the input gets validated for multiple languages?,puneet verma,3/12/2019 14:36,,,Medium,,Test Cases,0,,localisation test suite,S1,Other,puneet verma,3/12/2019 14:36
+C39,Does the software defaults to english if no language is chosen?,puneet verma,3/12/2019 14:36,,,Medium,,Test Cases,0,,localisation test suite,S1,Other,puneet verma,3/12/2019 14:36
+C40,Does the usability symbols known within the particular region?,puneet verma,3/12/2019 14:36,,,Medium,,Test Cases,0,,localisation test suite,S1,Other,puneet verma,3/12/2019 14:36
+C41,Does the date and time format according to the region?,puneet verma,3/12/2019 14:37,,,Medium,,Test Cases,0,,localisation test suite,S1,Other,puneet verma,3/12/2019 14:37
+C42,Does the currency symbol according to the region?,puneet verma,3/12/2019 14:37,,,Medium,,Test Cases,0,,localisation test suite,S1,Other,puneet verma,3/12/2019 14:37
+C43,"Does UI action symbols (question mark, stop symbol, file, save symbol) known within the particular region?",puneet verma,3/12/2019 14:37,,,Medium,,Test Cases,0,,localisation test suite,S1,Other,puneet verma,3/12/2019 14:37
+C44,How the currency symbols and numbers are formatted?,puneet verma,3/12/2019 14:37,,,Medium,,Test Cases,0,,localisation test suite,S1,Other,puneet verma,3/12/2019 14:37
+C45,How the phone numbers are formatted for a particular region?,puneet verma,3/12/2019 14:37,,,Medium,,Test Cases,0,,localisation test suite,S1,Other,puneet verma,3/12/2019 14:37
+C46,How the colors for symbols and UI are allocated for particular region?,puneet verma,3/12/2019 14:37,,,Medium,,Test Cases,0,,localisation test suite,S1,Other,puneet verma,3/12/2019 14:37
+C47,Does the translation free of errors?,puneet verma,3/12/2019 14:38,,,Medium,,Test Cases,0,,localisation test suite,S1,Other,puneet verma,3/12/2019 14:38
+C48,Does lack of translation is replaced by English by default?,puneet verma,3/12/2019 14:38,,,Medium,,Test Cases,0,,localisation test suite,S1,Other,puneet verma,3/12/2019 14:38
+C49,Does the lack of translation replaced by empty space or symbols?,puneet verma,3/12/2019 14:38,,,Medium,,Test Cases,0,,localisation test suite,S1,Other,puneet verma,3/12/2019 14:38
+C50,Does the translation of UI corrupted?,puneet verma,3/12/2019 14:38,,,Medium,,Test Cases,0,,localisation test suite,S1,Other,puneet verma,3/12/2019 14:38
+C51,Does the translation of UI inaccurate?,puneet verma,3/12/2019 14:38,,,Medium,,Test Cases,0,,localisation test suite,S1,Other,puneet verma,3/12/2019 14:38
+C52,formatting of mailing addresses is locale-specific,puneet verma,3/12/2019 14:59,,,Medium,,Test Cases,0,,localisation test suite,S1,Other,puneet verma,3/12/2019 14:59
+C53,The order in which surname and first name appear varies according to country,puneet verma,3/12/2019 15:00,,,Medium,,Test Cases,0,,localisation test suite,S1,Other,puneet verma,3/12/2019 15:00
+C54,application should work on preferred platorm/os in localised way,puneet verma,3/12/2019 15:01,,,Medium,,Test Cases,0,,localisation test suite,S1,Other,puneet verma,3/12/2019 15:01
+C55,Checking for politically sensitive content.,puneet verma,3/12/2019 15:05,,,Medium,,Test Cases,0,,localisation test suite,S1,Other,puneet verma,3/12/2019 15:05
+C56,"Making sure the market-specific information about your company, such as contact information or local product-support phone numbers, is updated",puneet verma,3/12/2019 15:05,,,Medium,,Test Cases,0,,localisation test suite,S1,Other,puneet verma,3/12/2019 15:05
+C57,time changing as per the location,puneet verma,3/12/2019 16:35,,,Medium,,Test Cases,0,,localisation test suite,S1,Other,puneet verma,3/12/2019 16:35
+C58,text field should accept characters as per location like zip code in us accept numbers whereas in kenya accept alphanumeric,puneet verma,3/12/2019 16:39,,,Medium,,Test Cases,0,,localisation test suite,S1,Other,puneet verma,3/12/2019 16:39
+C59,text field alignment based on text translation,puneet verma,3/12/2019 16:40,,,Medium,,Test Cases,0,,localisation test suite,S1,Other,puneet verma,3/12/2019 16:40
+C60,check link redirection from digital site to another link should be in local language eg here is information link of doctor,puneet verma,3/12/2019 16:43,,,Medium,,Test Cases,0,,localisation test suite,S1,Other,puneet verma,3/12/2019 16:43
+C61,in application reports standard in short compliance should adhere to local wise locations,puneet verma,3/12/2019 16:48,,,Medium,,Test Cases,0,,localisation test suite,S1,Other,puneet verma,3/12/2019 16:48

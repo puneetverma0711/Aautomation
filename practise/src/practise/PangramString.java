@@ -11,12 +11,13 @@ public class PangramString {
 		
 		sentence.replaceAll(" ", "");     
 		
-		char[] finalstring=sentence.toCharArray();
+		/*char[] finalstring=sentence.toCharArray();
+	
 		Arrays.sort(finalstring);
 		System.out.println(Arrays.toString(finalstring)); 
 		
 		char[] alpha= {'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','X','Y','Z'};
-		
+		*/
 		String alphalist="abcdefghijklmnopqrstuvexyz";
 		
 		boolean b=true;

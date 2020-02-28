@@ -27,11 +27,11 @@ public class sqlconnection {
 			myStmt = myConn.createStatement();
 			
 			// 3. Execute SQL query
-			myRs = myStmt.executeQuery("select * from Customer");
+			myRs = myStmt.executeQuery("select * from users");
 			
 			// 4. Process the result set
 			while (myRs.next()) {
-				System.out.println(myRs.getString("FirstName") + ", " + myRs.getString("LastName"));
+				System.out.println(myRs.getString("name") + ", " + myRs.getString("password"));
 			}
 		}
 		catch (Exception exc) {
