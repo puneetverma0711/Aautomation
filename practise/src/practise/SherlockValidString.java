@@ -9,7 +9,7 @@ public class SherlockValidString {
 
 public static void main(String[] args) {
 
-        String text="abcdefghhgfedecba";
+        String text="dashbord";
         char c[]=text.toCharArray();
 
       int size=c.length;
@@ -34,15 +34,19 @@ public static void main(String[] args) {
 
          }
 
-
+         int flag=0,flag1=0;
           outer:for(Integer entry1 :hmap.values()) {
-          int flag=0;
+         
 
-        for(Integer entry2 :hmap.values()) {
+       inner: for(Integer entry2 :hmap.values()) {
 
           if(entry1.equals(entry2)) {
-
+                 System.out.println(entry1);
+                 System.out.println(entry2);
           flag++;
+         }else if(entry2==3 && flag1<=0){
+        	 System.out.println(entry2);
+        	 flag1++;
          }else {
 
         System.out.println("string is not valid");
@@ -50,7 +54,7 @@ public static void main(String[] args) {
            }
 
          }
-       if(flag!=0){
+       if(flag!=0 || flag1==1){
          System.out.println("string is  valid");
           break;
 

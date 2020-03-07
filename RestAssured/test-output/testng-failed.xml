@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="restassured.ErgastApi">
+      <class name="restassured.WeatherApiTest">
         <methods>
-          <include name="verifybodyresponse"/>
           <include name="beforeMethod"/>
           <include name="afterMethod"/>
+          <include name="verifyweather"/>
         </methods>
-      </class> <!-- restassured.ErgastApi -->
+      </class> <!-- restassured.WeatherApiTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
