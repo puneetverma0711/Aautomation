@@ -1,68 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+<testng-results skipped="0" failed="1" ignored="2" total="3" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2896" started-at="2020-03-03T16:36:48Z" finished-at="2020-03-03T16:36:51Z">
+  <suite name="Default suite" duration-ms="2550" started-at="2020-03-07T15:08:09Z" finished-at="2020-03-07T15:08:12Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2896" started-at="2020-03-03T16:36:48Z" finished-at="2020-03-03T16:36:51Z">
+    <test name="Default test" duration-ms="2550" started-at="2020-03-07T15:08:09Z" finished-at="2020-03-07T15:08:12Z">
       <class name="restassured.WeatherApiTest">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:restassured.WeatherApiTest@735b5592]" name="beforeMethod" is-config="true" duration-ms="7" started-at="2020-03-03T22:06:48Z" finished-at="2020-03-03T22:06:48Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:restassured.WeatherApiTest@735b5592]" name="beforeMethod" is-config="true" duration-ms="9" started-at="2020-03-07T20:38:09Z" finished-at="2020-03-07T20:38:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="verifycoordinate()[pri:0, instance:restassured.WeatherApiTest@735b5592]" name="verifycoordinate" duration-ms="2585" started-at="2020-03-03T22:06:48Z" finished-at="2020-03-03T22:06:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifycoordinate -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:restassured.WeatherApiTest@735b5592]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-03-03T22:06:51Z" finished-at="2020-03-03T22:06:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:restassured.WeatherApiTest@735b5592]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-03-03T22:06:51Z" finished-at="2020-03-03T22:06:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="verifyweather()[pri:0, instance:restassured.WeatherApiTest@735b5592]" name="verifyweather" duration-ms="261" started-at="2020-03-03T22:06:51Z" finished-at="2020-03-03T22:06:51Z">
-          <exception class="java.lang.AssertionError">
+        <test-method status="FAIL" signature="verifytemprature()[pri:0, instance:restassured.WeatherApiTest@735b5592]" name="verifytemprature" duration-ms="2472" started-at="2020-03-07T20:38:09Z" finished-at="2020-03-07T20:38:12Z">
+          <exception class="java.lang.ClassCastException">
             <message>
-              <![CDATA[1 expectation failed.
-JSON path weather.main doesn't match.
-Expected: Clouds
-  Actual: [Clouds]
-]]>
+              <![CDATA[java.util.ArrayList cannot be cast to java.lang.String]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: 1 expectation failed.
-JSON path weather.main doesn't match.
-Expected: Clouds
-  Actual: [Clouds]
-
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
-	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:451)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:613)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
-	at io.restassured.internal.ResponseSpecificationImpl.content(ResponseSpecificationImpl.groovy:251)
-	at io.restassured.specification.ResponseSpecification$content$0.callCurrent(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:234)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:268)
-	at restassured.WeatherApiTest.verifyweather(WeatherApiTest.java:49)
+              <![CDATA[java.lang.ClassCastException: java.util.ArrayList cannot be cast to java.lang.String
+	at restassured.WeatherApiTest.verifytemprature(WeatherApiTest.java:83)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -90,11 +46,11 @@ Expected: Clouds
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- java.lang.ClassCastException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyweather -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:restassured.WeatherApiTest@735b5592]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-03-03T22:06:51Z" finished-at="2020-03-03T22:06:51Z">
+        </test-method> <!-- verifytemprature -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:restassured.WeatherApiTest@735b5592]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-03-07T20:38:12Z" finished-at="2020-03-07T20:38:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->

@@ -8,12 +8,12 @@ import java.util.List;
 public class MaximPalin {
 
 	public static void main(String[] args) {
-		
-		String number="3943";
+		//43435
+		String number="092282";
 		char a[]=number.toCharArray();
 		
 char c = 0;
-		int n=1;
+		int n=3;
 		int compare,flag=0;
 		outer:for(int i=0;i<a.length-1;i++) {
 			 compare=i;
@@ -38,55 +38,117 @@ char c = 0;
                
 		}
 		
+		String higheststring=String.valueOf(c);
+	             int highestdigit=Integer.parseInt(higheststring);
 		
-		
-	/*int p=Character.getNumericValue(c);
-	String highestdigit=Integer.toString(p);
-	System.out.println(highestdigit); */
-		
-		
-		
-		/*
-		
-		String finalnum="";
-		while(n>0) {
+	             int numberarray[]=new int[number.length()];
+	             
+	             for(int i=0;i<numberarray.length;i++)
+	             
+	             {
+	            	 numberarray[i]=number.charAt(i)- '0';
+	            	 
+	             }
+	             
+	
+		int resultpalin[]=createpalinrecursion(numberarray,highestdigit,n);
+		String resultpalin1="";
+		for(int u=0;u<resultpalin.length;u++) {
+			resultpalin1=resultpalin1+String.valueOf(resultpalin[u]);
 			
-			do {
-				int count=0;
-				if(low==high)
-				{
-					
-					
-					low++;
-					high--;
-					
-					
-				}else {
-					
-					low=p;
-					high=p;
-					finalnum[0]=low;
-					finalnum[1]=high;
-					System.out.println(finalnum[0]);
-					System.out.println(finalnum[1]);
-					count++;
-				}
-				if(count!=0) {
-					break;
-					
-				}
-		
-			
-			}while(low!=high);
-			
-			
-			
-			n--;
+			  
 		}
-		*/
+		
+		
+		
+  		String reversepalin="";
+                for(int m=resultpalin.length-1;m>=0;m--) {
+                	reversepalin=reversepalin+String.valueOf(resultpalin[m]);
+
+		}
+		
+	
+               
+		
+                
+            String result="";
+            
+            if(resultpalin1.equalsIgnoreCase(reversepalin)) {
+            	
+            	result="maximum string palindrome is: " +resultpalin1;
+            }else {
+            	
+            	result="-1";
+            }
+                
+                
+                
+           System.out.println(result);    
+                
+		
+	}
+
+	public static int[] createpalinrecursion(int arr[],int a,int b) {
+		
+		int k[]=createpalin(arr,a,b);
+		
+		
+		/*for(int i=0;i<k.length;i++) {
+			
+			System.out.println(k[i]);
+	
+		}*/
+		
+		
+		
+		return k;
+		
 		
 		
 		
 	}
 
+	public static int[] createpalin(int resultarr[],int replacedigit,int changelimit) {
+		
+		int low=0;
+		int high=resultarr.length-1;
+		
+		for(int z=0;z<changelimit;z++) {
+			
+			if(resultarr[low]==resultarr[high])
+			{
+				
+				low++;
+				high--;
+			}
+			
+			
+			if(resultarr[low]!=resultarr[high])
+			{
+				resultarr[low]=replacedigit;
+				resultarr[high]=replacedigit;  
+				
+			}
+			
+			
+		}
+		
+		
+		
+		return resultarr;
+		
+		
+		
+		
+		
+		
+	}
+
+	
+	
+	
+	
+	
+	
+	
 }

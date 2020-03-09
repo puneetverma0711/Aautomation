@@ -5,9 +5,9 @@
     <classes>
       <class name="restassured.WeatherApiTest">
         <methods>
+          <include name="verifytemprature"/>
           <include name="beforeMethod"/>
           <include name="afterMethod"/>
-          <include name="verifyweather"/>
         </methods>
       </class> <!-- restassured.WeatherApiTest -->
     </classes>
