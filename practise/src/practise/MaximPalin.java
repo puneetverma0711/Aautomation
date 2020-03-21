@@ -9,7 +9,7 @@ public class MaximPalin {
 
 	public static void main(String[] args) {
 		//43435
-		String number="092282";
+		String number="12345";
 		char a[]=number.toCharArray();
 		
 char c = 0;

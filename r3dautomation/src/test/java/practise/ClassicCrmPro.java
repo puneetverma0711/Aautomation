@@ -15,6 +15,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterMethod;
@@ -27,8 +28,8 @@ public class ClassicCrmPro {
 	
 	@BeforeMethod
   public void beforeMethod() throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver", "D:/selenium jar files/chromedriver_win32/chromedriver.exe");
-		driver=new ChromeDriver();
+		System.setProperty("webdriver.edge.driver", "D:/selenium jar files/edgedriver_win64/msedgedriver.exe");
+		driver=new EdgeDriver();
 driver.get("http://automationpractice.com/index.php");
 		driver.manage().window().maximize();
 	driver.manage().timeouts().pageLoadTimeout(120, TimeUnit.SECONDS);

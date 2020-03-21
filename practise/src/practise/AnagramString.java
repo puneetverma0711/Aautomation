@@ -5,32 +5,25 @@ import java.util.Map.Entry;
 
 public class AnagramString {
 
-	static String firststring="cabrtyuio";
-	static String secondstring="aabc";
+	static String firststring="fcrxzwscanmligyxyvym";
+	static String secondstring="jxwtrhvujlmrpdoqbisbwhmgpmeoke";
 	
 	
 	public static void main(String[] args) {
-		/*String duplicatecharoffirststring=uniquefirststring(firststring); 
-		int sizeofduplicatecharoffirststring=duplicatecharoffirststring.length();
-		System.out.println(sizeofduplicatecharoffirststring); 
-		
-		
-		String duplicatecharofsecondstring=uniquesecondstring(secondstring); 
-		int sizeofduplicatecharofsecondstring=duplicatecharofsecondstring.length();
-		System.out.println(sizeofduplicatecharofsecondstring);  */
-		
-		
 		
 		int sizeoffirststring=firststring.length();
-		System.out.println(sizeoffirststring);
+		
 		int sizeofsecondstring=secondstring.length(); 
-		System.out.println(sizeofsecondstring);
+		
 		int totalsize=sizeoffirststring+sizeofsecondstring;
 		System.out.println(totalsize);
 		
  		
-	     String result="";
-		
+	     int deletions = 0;
+	     int val=uniquefirststring(firststring);
+	     System.out.println(val);
+	     int val2= uniquesecondstring(secondstring);
+	     System.out.println(val2);
 	     for(int i=0;i<sizeoffirststring;i++) {
 	    	 
 	    	 for(int j=0;j<sizeofsecondstring;j++) {
@@ -41,7 +34,7 @@ public class AnagramString {
 	    	    	 {
 	    	    		  
 	    	    		 
-	    	    		 result=result+firststring.charAt(i)+secondstring.charAt(i); 
+	    	    		 deletions++;
 	    	            		 
 	    	    		 
 	    	    	 }  
@@ -51,13 +44,11 @@ public class AnagramString {
 	    	 }
 	     }
 	     
-	     
-		  
-		    
+	     System.out.println(deletions);
+
 		
-		int resultsize=result.length();
-		System.out.println(resultsize); 
-	int noofdeletions=totalsize-resultsize;
+	
+	int noofdeletions=totalsize-deletions;
 		
 		System.out.println("minumum no of deletions are: " +noofdeletions);
 		
@@ -65,90 +56,58 @@ public class AnagramString {
 	}
 
 	
+
+public static int uniquefirststring(String a) {
 	
-	
-	public static String uniquefirststring(String one) {
+	int count=0;
+	for(int i=0;i<a.length();i++) {
 		
-		char[] c=one.toCharArray(); 
-		int size=c.length;
-		int i=0;
-		
-		LinkedHashMap<Character, Integer> lhm = new LinkedHashMap<Character, Integer>();
-		while(i!=size)  
-		{
-			if(lhm.containsKey(c[i])==false){  
-				lhm.put(c[i], 1);
+		for(int j=i+1;j<a.length();j++) {
+			
+			if(a.charAt(i)==a.charAt(j) && i!=j) {
 				
-			}else {
-				int oldval=lhm.get(c[i]);
-				int newval=oldval+1;
-				lhm.put(c[i], newval); 
+				count++;
 				
 			}
 			
-			i++;
-		}		
-		
-		String result="";
-	//	Set<Entry<Character,Integer>> linkedmap=lhm.entrySet();  
-		for(Entry<Character,Integer> data:lhm.entrySet() ){
 			
- 
-				if(data.getValue()>1) {
-					result=result+data.getKey();
-					
-					
-				}
-											   
 		}
-
-		
-		return result;
-		
 		
 	}
 	
 	
-public static String uniquesecondstring(String two) {
+	return count;
+}
+
+
+
+
+public static int uniquesecondstring(String b) {
+	int count=0;
+	for(int i=0;i<b.length();i++) {
 		
-		char[] c=two.toCharArray();  
-		int size=c.length;
-		int i=0;
-		
-		LinkedHashMap<Character, Integer> lhm = new LinkedHashMap<Character, Integer>();
-		while(i!=size)  
-		{
-			if(lhm.containsKey(c[i])==false){  
-				lhm.put(c[i], 1);
+		for(int j=i+1;j<b.length();j++) {
+			
+			if(b.charAt(i)==b.charAt(j) && i!=j) {
 				
-			}else {
-				int oldval=lhm.get(c[i]);
-				int newval=oldval+1;
-				lhm.put(c[i], newval); 
+				count++;
 				
 			}
 			
-			i++;
-		}		
-		
-		String result="";
-	//	Set<Entry<Character,Integer>> linkedmap=lhm.entrySet();  
-		for(Entry<Character,Integer> data:lhm.entrySet() ){
 			
- 
-				if(data.getValue()>1) {
-					result=result+data.getKey();
-					
-					
-				}
-											   
 		}
-
-		
-		return result;
-		
 		
 	}
+	
+	
+	return count;
+	
+	
+}
+
+
+
+
 
 
 

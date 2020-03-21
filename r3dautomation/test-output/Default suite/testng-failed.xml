@@ -3,13 +3,18 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="practise.CalendePickerTest">
+      <class name="practise.WindowsTest">
         <methods>
-          <include name="beforeMethod"/>
-          <include name="verifycalenderdata"/>
-          <include name="afterMethod"/>
+          <include name="Subtraction"/>
+          <include name="Addition"/>
+          <include name="Multiplication"/>
+          <include name="Clear"/>
+          <include name="TearDown"/>
+          <include name="setup"/>
+          <include name="Combination"/>
+          <include name="Division"/>
         </methods>
-      </class> <!-- practise.CalendePickerTest -->
+      </class> <!-- practise.WindowsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
