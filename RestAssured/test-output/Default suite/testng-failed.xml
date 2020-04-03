@@ -3,13 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="restassured.WeatherApiTest">
+      <class name="com.api.testcases.CreateEmployeeTest">
         <methods>
-          <include name="verifytemprature"/>
-          <include name="beforeMethod"/>
-          <include name="afterMethod"/>
+          <include name="sendrequest"/>
+          <include name="verifycreateUser"/>
         </methods>
-      </class> <!-- restassured.WeatherApiTest -->
+      </class> <!-- com.api.testcases.CreateEmployeeTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
